@@ -98,23 +98,19 @@ Compared actual vs predicted demand for individual states (e.g., Andhra Pradesh)
 
 You’ll need a valid Nixtla API Key to access TimeGPT.
 
-🚀 Future Improvements
+## Future Improvements
+- Integrate weather and holiday data for multi-variable forecasting.
+- Extend model to hourly forecasting
+- Deploy a Streamlit or Plotly dashboard for real-time visualization
+- Add automatic retraining pipeline using Nixtla API
 
-🌦️ Integrate weather and holiday data for multi-variable forecasting
-
-⏰ Extend model to hourly forecasting
-
-📊 Deploy a Streamlit or Plotly dashboard for real-time visualization
-
-🔁 Add automatic retraining pipeline using Nixtla API
-
-👨‍💻 Author
+## Author
 
 Venkata Sreenivas
 💡 Data Science & AI Enthusiast
 📍 India
 
-📫 Connect with me:
+## Connect with me:
 
 GitHub: github.com/venkata-sreenivas
 
