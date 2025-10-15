@@ -92,9 +92,36 @@ Compared actual vs predicted demand for individual states (e.g., Andhra Pradesh)
 - `matplotlib` → Visualization  
 - `lightgbm`, `scikit-learn` → Machine learning  
 - `nixtla`, `mlforecast`, `utilsforecast` → TimeGPT forecasting  
-- `google.colab` → File upload/download utilities  
+- `google.colab` → File upload/download utilities
 
-### Installation
-```bash
-%pip install --upgrade pip
-%pip install nixtla utilsforecast mlforecast lightgbm scikit-learn pandas matplotlib
+🔑 Nixtla API Setup
+You’ll need a valid Nixtla API Key to access TimeGPT.
+Add it securely to your environment:
+
+import os
+from nixtla import NixtlaClient
+
+os.environ['NIXTLA_API_KEY'] = "your_api_key_here"
+nixtla_client = NixtlaClient(api_key=os.environ['NIXTLA_API_KEY'])
+
+🚀 Future Improvements
+
+🌦️ Integrate weather and holiday data for multi-variable forecasting
+
+⏰ Extend model to hourly forecasting
+
+📊 Deploy a Streamlit or Plotly dashboard for real-time visualization
+
+🔁 Add automatic retraining pipeline using Nixtla API
+
+👨‍💻 Author
+
+Venkata Sreenivas
+💡 Data Science & AI Enthusiast
+📍 India
+
+📫 Connect with me:
+
+GitHub: github.com/venkata-sreenivas
+
+LinkedIn: linkedin.com/in/venkata-sreenivas
