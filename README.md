@@ -95,14 +95,8 @@ Compared actual vs predicted demand for individual states (e.g., Andhra Pradesh)
 - `google.colab` → File upload/download utilities
 
 🔑 Nixtla API Setup
+
 You’ll need a valid Nixtla API Key to access TimeGPT.
-Add it securely to your environment:
-
-import os
-from nixtla import NixtlaClient
-
-os.environ['NIXTLA_API_KEY'] = "your_api_key_here"
-nixtla_client = NixtlaClient(api_key=os.environ['NIXTLA_API_KEY'])
 
 🚀 Future Improvements
 
