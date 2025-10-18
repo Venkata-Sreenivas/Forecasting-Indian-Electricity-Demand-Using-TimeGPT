@@ -109,9 +109,3 @@ You’ll need a valid Nixtla API Key to access TimeGPT.
 Venkata Sreenivas
 💡 Data Science & AI Enthusiast
 📍 India
-
-## Connect with me:
-
-GitHub: github.com/venkata-sreenivas
-
-LinkedIn: linkedin.com/in/venkata-sreenivas
